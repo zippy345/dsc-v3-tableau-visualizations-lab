@@ -66,8 +66,10 @@ Finally we would like to show the _Profit_ over time, and to do this we will be 
 > * Rename the _Axis Label_ of _Quarter of Order Date_ to _Order Date:_ and add a _Subtitle_ which reads _Quarterly_
 > * Add the dollar sign to the _Profit_ _Axis_ and add _Minor Tick Marks_ at __$1,000__ intervals. 
 
+Once you have followed these steps, you should have a viz that looks like the one below.
+
 <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/quarterly_profit.png" alt="Example of the final line graph" height=350>
 
 
 ## Summary
-Summary goes here
+Understanding which vizzes are available and what there use cases are is important to using Tableau effectively. In this lab you got some experience creating three of the most useful vizzes, the _Bar Chart, Scatter Plot,_ and the _Line Graph_. You were able to customize and add important details to each of these vizzes and customize titles and names so that the information is easier to understand for the viewer. You also were able to save all of your work so that we can use them in upcoming lessons.
