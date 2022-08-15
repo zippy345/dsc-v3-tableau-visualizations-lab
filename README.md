@@ -37,12 +37,37 @@ Once you are finished, remember to save your viz to Tableau Public so we can use
 <img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/useful_bar_chart.png" alt="Tableau Data Connect Menu" height=350>
 
 ## Scatter Plot
+Next we will be creating a _Scatter Plot_ which will allow us to visualize the relationship between _Sales_ and _Profit_. To begin this viz, open a new worksheet and add _Sales_ and _Profit_ to the workspace. This will produce a seemingly useless _Scatter Plot_ with one shape on the viz.
+* Make the viz fit _The Entire View_.
+* Add detail to the viz with the _City_ measure.
+* Color _Profit_ with a _Red-Green Diverging_ palette and make sure the center is at _0_ and the whole color range is used.
+* Size the elements in the viz by _Quantity_ and adjust the size to make it easy to differentiate between the smaller items.
+* Add a _Linear Trend Line_ to show the trend of _Sales_ to _Profit_.
+* Add a meaningful _Title_ to the viz and make it eye appealing.
 
+> __Level Up__
+> * Add some color to the _Trend Line_
+> * Change the _Axis_ labels to show currency in __Thousands__ with __0__ decimal places.
+> * Change the shapes to show the different _Categories_ and customize the _Shape_ for each _Category_
+> * Customize the _Title_ with some color.
 
+Once you have followed these steps, you will have a viz that looks like the one below. Make sure you save your work so we can use it later.
 
-```python
-## content for topic title 3
-```
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/sales_to_profit.png" alt="Example of the final scatter plot" height=350>
+
+## Line Graph
+Finally we would like to show the _Profit_ over time, and to do this we will be making a _Line Graph_. Begin this in the same manner as the others and add _Order Date_ and _Profit_ to the workspace.
+* Change the level of the _Order Date_ to _Quarter_.
+* _Color_ the _Profit_ to be __Green__ when the _Profit_ is positive and __Red__ when it is negative.
+* Add quarter labels to the _Order Date_ and _Format_ it so it has only the __Quarter__ and the __Year__.
+* Add a _Title_ and save your work for use later.
+
+> __Level Up__
+> * Rename the _Axis Label_ of _Quarter of Order Date_ to _Order Date:_ and add a _Subtitle_ which reads _Quarterly_
+> * Add the dollar sign to the _Profit_ _Axis_ and add _Minor Tick Marks_ at __$1,000__ intervals. 
+
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/tableau/quarterly_profit.png" alt="Example of the final line graph" height=350>
+
 
 ## Summary
 Summary goes here
