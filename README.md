@@ -64,19 +64,22 @@ Suppose you want to create a visualization that will communicate which kinds of 
     </center> </div>
 <br>
 
-Great work! Now we have an informative plot that illustrates profit by Sub-Category!
+Great work! Now we have an informative plot that illustrates profit by sub-category!
 
-## Visualizing Discounts versus Profits
-Next, let's create a chart that communicates the relationship between discount and profits among categories.
+## Visualizing Orders by Region
+Next, let's create a chart that visualizes the number of orders by region.
 
-### Create a Scatter Plot
+### Create a Regional Map
 1. Select the New Worksheet Icon from the from the sheets tab.
 
-2. Double click the Title bar on the Sheets pane and enter "Discounts versus Profits by Sub-Category". Make the type-face bold and change the size to 22.
+2. Double click the title bar on the Sheets pane and enter "Orders by Region". Center the title and change the font-size to 16.
 
-3. Then, double-click the tab for the current sheet in the Sheets tab and rename the tab "Discounts".
+3. Drag the `Orders.Orders Count` pill from the Data pane to the Rows shelf. Then, drag the `Orders.Postal-Code` pill to the Columns shelf. 
 
-4. Drag the `Orders.Profits (SUM)` pill from the Data pane to the Rows shelf. Then, drag the `Orders.Discounts (SUM)` pill to the columns shelf. 
+4. Next, select the Show Me Pane from the upper right hand corner of the screen and choose the Map visualization. Tableau will automatically rearrange the pills between the Row and Column shelf, like so:
+
+### Customize the Regional Map
+5. Next, go to the Marks card and change the `CNT(ORDERS)` pill to the Size attribute. Then, drag `Region` from the Data pane to the Marks card and change the attribute to color.
 
 5. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
 
@@ -90,22 +93,7 @@ Your screen will look like this:
     </center> </div>
 <br>
 
-### Customize the Scatter Plot
-5. Drag the `Orders.Sub-Category` pill from the Data pane to the Marks card. Then select the icon to the left of the pill (on the Marks card) and select `Color`. The color of the marks on the scatter plot will change to reflect the category. 
-
-6. Drag the `Orders.Sales (SUM)` pill to the Marks card, then select the icon to left of the pill and select Size. The size of the data point marks on the scatter plot will reflect the amount of sales in that sub-category.
-
-Your screen should look like this:
-
-<div>
-    <center>
-<table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/scatter-final.png" alt="This is the alt-text for the image." style="width: 700px;"/>
-</td></tr></table>
-    </center> </div>
-<br>
-
-Perfect! Now we have a scatter plot that demonstrates the relationship between Discounts and Profits by Sub-Category.
+Great, now we have a plot the visualizes the sales by region!
 
 ### Visualize Sales Over Time
 Finally, we will visualize monthly sales on a time series plot, which is a version of a line graph.
