@@ -13,7 +13,7 @@ You will be able to:
 * Create a customized time series plot in Tableau
 
 ## Visualizing Profits
-Suppose you want to create a visualization that will communicate which kinds of products yield the most profits. A bar chart is great choice for conveying this kind of information. In previous lessons, we created a simple bar chart and demonstrated how to use Tableau's functionality to customize it. Now, it's your turn to create a bar chart.
+Suppose you want to create a visualization that will communicate which kinds of products yield the most profits. A bar chart is a great choice for conveying this kind of information. In previous lessons, we created a simple bar chart and demonstrated how to use Tableau's functionality to customize it. Now, it's your turn to create a bar chart.
 
 ### Connect to a Data Source and Launch the Tableau workspace
 1. Launch Tableau and use the Connect pane on the Start page to connect to the Super Store Sales data set.
@@ -33,13 +33,13 @@ Suppose you want to create a visualization that will communicate which kinds of 
 ### Create a Bar Chart
 4. Rename the new worksheet "Profits by Sub-Category".
 
-5. Drag the `Orders.Sub-Category` pill from Dimensions in the data pane to the Column shelf. Then, drag the `Orders.Profit (SUM)` pill from Measures and drag them to the rows shelf. 
+5. Drag the `Orders. Sub-Category` pill from Dimensions in the data pane to the Column shelf. Then, drag the `Orders. Profit (SUM)` pill from Measures and drag them to the rows shelf. 
 
-5. Select **Swap** from the Command bar to transform the bar chart to a vertical bar chart.
+5. Select **Swap** from the Command bar to transform the bar chart into a vertical bar chart.
 
 7. Navigate to the top of the Sheets pane and edit the title so that it is centered and has a size 16 font.
 
-8. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
+8. Navigate to the Fit drop-down on the Command bar at the top of the screen. Select "Entire View".
 
 Now, your screen should look like this:
 
@@ -52,7 +52,7 @@ Now, your screen should look like this:
 <br>
 
 ### Customize a Bar Chart
-9. Drag the `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, assign the Color attribute. This will automatically change the color of the plot. Next, we will customized by clicking on the Color card on the marks card and entering the same parameters from the image below.
+9. Drag the `Orders. Profit (SUM)` pill from the Data pane to the Marks card. Then, assign the Color attribute. This will automatically change the color of the plot. Next, we will customize by clicking on the Color card on the marks card and entering the same parameters from the image below.
 
 <div>
     <center>
@@ -62,7 +62,7 @@ Now, your screen should look like this:
     </center> </div>
 <br>
 
-10. Drag the another `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, click on the icon next to the pill and select Label. This will automatically apply a label at the top of each bar on the chart to indicate the value of `Orders.Profit (SUM)` for that sub-category.
+10. Drag the other `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, click on the icon next to the pill and select Label. This will automatically apply a label at the top of each bar on the chart to indicate the value of `Orders.Profit (SUM)` for that sub-category.
 
 <div>
     <center>
@@ -73,7 +73,7 @@ Now, your screen should look like this:
 <br>
 
 
-11. Right click on one of the labels you created and select **Format**. The Format pane will appear to the far left of your screen. 
+11. Right-click on one of the labels you created and select **Format**. The Format pane will appear to the far left of your screen. 
 
 <div>
     <center>
@@ -85,7 +85,7 @@ Now, your screen should look like this:
 
 
 
-12. Under the Default heading, select the **Number** drop down and choose **Currency (Standard)** and set the decimal places to zero. Close the format pane.
+12. Under the Default heading, select the **Number** drop-down and choose **Currency (Standard)**, and set the decimal places to zero. Close the Format pane.
 
 <div>
     <center>
@@ -110,11 +110,11 @@ Now, your screen should look like this:
 Next, let's create a chart that visualizes the number of orders by region.
 
 ### Create a Regional Map
-1. Select the New Worksheet Icon from the from the sheets tab.
+1. Select the New Worksheet Icon from the sheets tab.
 
-2. Double click the title bar on the Sheets pane and enter "Orders by Region". Center the title and change the font-size to 16.
+2. Double-click the title bar on the Sheets pane and enter "Orders by Region". Center the title and change the font size to 16.
 
-3. Drag the `Orders.Orders Count` pill from the Data pane to the Rows shelf. Then, drag the `Orders.Postal-Code` pill to the Columns shelf. 
+3. Drag the `Orders.Orders Count` pill from the Data pane to the Rows shelf. Then, drag the `Orders.Postal Code` pill to the Columns shelf. 
 
 Your screen will look like this:
 
@@ -126,7 +126,7 @@ Your screen will look like this:
     </center> </div>
 <br>
 
-4. Next, select the Show Me Pane from the upper right hand corner of the screen and choose the Map visualization. Tableau will automatically rearrange the pills between the Row and Column shelf, like so:
+4. Next, select the Show Me Pane from the upper right-hand corner of the screen and choose the Map visualization. Tableau will automatically rearrange the pills between the Row and Column shelf, like so:
 
 <div>
     <center>
@@ -157,7 +157,7 @@ Your screen will look like this:
     </center> </div>
 <br>
 
-5. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
+5. Navigate to the Fit drop-down on the Command bar at the top of the screen. Select "Entire View".
 
 Your screen will look like this:
 
@@ -169,14 +169,14 @@ Your screen will look like this:
     </center> </div>
 <br>
 
-Great, now we have a plot the visualizes the orders by region!
+Great, now we have a plot that visualizes the orders by region!
 
 ### Visualize Sales Over Time
 Finally, we will visualize monthly sales on a time series plot, which is a version of a line graph.
 
-1. Select the New Worksheet Icon from the from the sheets tab.
+1. Select the New Worksheet Icon from the sheets tab.
 
-2. Double click the Title bar on the Sheets pane and enter "Sales by Month". Make the type-face bold and change the size to 22.
+2. Double-click the Title bar on the Sheets pane and enter "Sales by Month". Make the typeface bold and change the size to 22.
 
 3. Then, double-click the tab for the current sheet in the Sheets tab and rename the tab "Sales".
 
@@ -184,7 +184,7 @@ Finally, we will visualize monthly sales on a time series plot, which is a versi
 
 5. Drag the `Sales (SUM)` pill to the Rows shelf. 
 
-6. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
+6. Navigate to the Fit drop-down on the Command bar at the top of the screen. Select "Entire View".
 
 Your screen will look like this:
 
@@ -236,4 +236,4 @@ Finally, we are going to save our new workbook to Tableau Public so we can retri
 3. Change the name of your workbook to "learn-wb-YYYY-MM-XX" and publish to Tableau Public!
 
 ## Summary
-In this lesson, we created three customized plots for three different use cases. We created a bar plot to demonstrate profits among the different product sub-categories in the Super Store Sales data set. Then, we created a scatter plot to visualize the relationship between sales and discounts and added size to demonstrate the number of orders. Finally, we created a viz that communicate monthly sales over time for the three product categories.
+In this lesson, we created three customized plots for three different use cases. We created a bar plot to demonstrate profits among the different product sub-categories in the Super Store Sales data set. Then, we created a scatter plot to visualize the relationship between sales and discounts and added size to demonstrate the number of orders. Finally, we created a viz that communicates monthly sales over time for the three product categories.
