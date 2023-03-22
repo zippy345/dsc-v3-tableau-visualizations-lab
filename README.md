@@ -31,40 +31,80 @@ Suppose you want to create a visualization that will communicate which kinds of 
 <br>
 
 ### Create a Bar Chart
-4. Drag the `Orders.Sub-Category` pill from Dimensions in the data pane to the Column shelf. Then, drag the `Orders.Profit (SUM)` pill from Measures and drag them to the rows shelf. Now, your screen should look like this:
+4. Rename the new worksheet "Profits by Sub-Category".
 
-5. Select Swap from the Command bar to create a vertical bar chart.
-    
-6. Double click on the text for Sheet 1 on the sheets tab to open the Edit dialog box. Rename the sheet "Profits".
+5. Drag the `Orders.Sub-Category` pill from Dimensions in the data pane to the Column shelf. Then, drag the `Orders.Profit (SUM)` pill from Measures and drag them to the rows shelf. 
 
-7. Navigate to the top of the Sheets pane and change the title to "Profits by Sub-Category". Make the type-face bold and change the size to 22.
+5. Select **Swap** from the Command bar to transform the bar chart to a vertical bar chart.
+
+7. Navigate to the top of the Sheets pane and edit the title so that it is centered and has a size 16 font.
+
+8. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
+
+Now, your screen should look like this:
 
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lesson3/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/bar-first.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
 
-### Customize the Bar Chart
-8. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
+### Customize a Bar Chart
+9. Drag the `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, assign the Color attribute. This will automatically change the color of the plot. Next, we will customized by clicking on the Color card on the marks card and entering the same parameters from the image below.
 
-9. Drag the `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, click on the icon next to the pill and select Color. This will automatically change the color of the plot, which we will customized by clicking on the Color card on the marks card and entering the same parameters from the image below.
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/viz-lab-colors.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
 10. Drag the another `Orders.Profit (SUM)` pill from the Data pane to the Marks card. Then, click on the icon next to the pill and select Label. This will automatically apply a label at the top of each bar on the chart to indicate the value of `Orders.Profit (SUM)` for that sub-category.
 
-11. Right click the `Orders.Profit (SUM)` pill on the Marks card that you just used to create the labels and select Format. The Format pane will appear to the far left of your screen. Under the Default heading, select the Number drop down and select Currency (Standard). Close the format pane.
-
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/bar-final.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/bar-marks.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
 
-Great work! Now we have an informative plot that illustrates profit by sub-category!
+
+11. Right click on one of the labels you created and select **Format**. The Format pane will appear to the far left of your screen. 
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/format.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
+
+
+12. Under the Default heading, select the **Number** drop down and choose **Currency (Standard)** and set the decimal places to zero. Close the format pane.
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/currency.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
+13. Now, you should have a plot that looks like this:
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/bar-final.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
 
 ## Visualizing Orders by Region
 Next, let's create a chart that visualizes the number of orders by region.
@@ -76,10 +116,46 @@ Next, let's create a chart that visualizes the number of orders by region.
 
 3. Drag the `Orders.Orders Count` pill from the Data pane to the Rows shelf. Then, drag the `Orders.Postal-Code` pill to the Columns shelf. 
 
+Your screen will look like this:
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/region-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
 4. Next, select the Show Me Pane from the upper right hand corner of the screen and choose the Map visualization. Tableau will automatically rearrange the pills between the Row and Column shelf, like so:
 
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/region-2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
 ### Customize the Regional Map
-5. Next, go to the Marks card and change the `CNT(ORDERS)` pill to the Size attribute. Then, drag `Region` from the Data pane to the Marks card and change the attribute to color.
+5. Next, go to the Marks card and change the `CNT(ORDERS)` pill to the Size attribute.
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/region-3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
+
+7. Then, drag `Region` from the Data pane to the Marks card and change the attribute to Color.
+
+<div>
+    <center>
+<table><tr><td>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/region-4.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+</td></tr></table>
+    </center> </div>
+<br>
 
 5. Navigate to the Fit drop down on the Command bar at the top of the screen. Select "Entire View".
 
@@ -88,12 +164,12 @@ Your screen will look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/scatter1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/region-5.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
 
-Great, now we have a plot the visualizes the sales by region!
+Great, now we have a plot the visualizes the orders by region!
 
 ### Visualize Sales Over Time
 Finally, we will visualize monthly sales on a time series plot, which is a version of a line graph.
