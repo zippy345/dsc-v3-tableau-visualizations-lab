@@ -1,4 +1,4 @@
-# Enhance Your Tableau Visualizations - Lab
+# Tableau Visualizations - Visualizations Basics Lab
 
 ## Introduction
 In previous lessons, we reviewed all of the essential components of the Tableau environment to help you quickly begin creating visualizations in Tableau. We have learned how to connect to resources to create a data source. Then, we learned how to create relationships between our connected data and generate worksheets. Finally, we built out some simple visualizations. 
@@ -9,7 +9,7 @@ Now that you have gotten a taste of some of the features Tableau has to offer, i
 
 You will be able to:
 * Create a customized bar chart in Tableau
-* Create a customized scatter plot in Tableau
+* Create a customized regional plot
 * Create a customized time series plot in Tableau
 
 ## Visualizing Profits
@@ -25,7 +25,7 @@ Suppose you want to create a visualization that will communicate which kinds of 
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/6_data_viz_lab/tab-1.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -191,7 +191,7 @@ Your screen will look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/time0.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/6_data_viz_lab/time0.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -201,7 +201,7 @@ Your screen will look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/time2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/6_data_viz_lab/time2.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -211,7 +211,7 @@ Your screen will look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/time3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/6_data_viz_lab/time3.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -221,7 +221,7 @@ Your screen will look like this:
 <div>
     <center>
 <table><tr><td>
-<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/images/tableau/lab1/time-final.png" alt="This is the alt-text for the image." style="width: 700px;"/>
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/v3/tableau/tableau/6_data_viz_lab/time-final.png" alt="This is the alt-text for the image." style="width: 700px;"/>
 </td></tr></table>
     </center> </div>
 <br>
@@ -237,3 +237,6 @@ Finally, we are going to save our new workbook to Tableau Public so we can retri
 
 ## Summary
 In this lesson, we created three customized plots for three different use cases. We created a bar plot to demonstrate profits among the different product sub-categories in the Super Store Sales data set. Then, we created a scatter plot to visualize the relationship between sales and discounts and added size to demonstrate the number of orders. Finally, we created a viz that communicates monthly sales over time for the three product categories.
+
+
+
