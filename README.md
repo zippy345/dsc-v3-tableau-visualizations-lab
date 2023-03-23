@@ -233,7 +233,7 @@ Finally, we are going to save our new workbook to Tableau Public so we can retri
 
 2. Log into Tableau if prompted.
 
-3. Change the name of your workbook to "learn-wb-YYYY-MM-XX" and publish to Tableau Public!
+3. Save and publish to Tableau Public in your `learn-wb`. 
 
 ## Summary
 In this lesson, we created three customized plots for three different use cases. We created a bar plot to demonstrate profits among the different product sub-categories in the Super Store Sales data set. Then, we created a scatter plot to visualize the relationship between sales and discounts and added size to demonstrate the number of orders. Finally, we created a viz that communicates monthly sales over time for the three product categories.
